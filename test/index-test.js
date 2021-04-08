@@ -9,7 +9,7 @@ describe('index', () => {
     src: fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
   })
 
-  describe('receivesAFunction(callback)', () => {
+  describe(')receivesAFunction(callback', () => {
     it('receives a function and calls it', () => {
       const spy = expect.createSpy()
 
